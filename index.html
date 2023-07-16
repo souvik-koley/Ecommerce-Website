@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Website Payment</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <div class="nav container">
+        <a href="#" class="logo">Ecommerce</a>
+        <i class="bx bx-shopping-bag" id="cart-icon" data-quantity="0"></i>
+        <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <div class="cart-content">
+            <div class="cart-box"></div>
+          </div>
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+          </div>
+          <button type="button" class="btn-buy">Pay Now</button>
+          <i class="bx bx-x" id="close-cart"></i>
+        </div>
+      </div>
+    </header>
+    <!-- products -->
+    <section class="shop container">
+      <h2 class="section-title">Shop Products</h2>
+      <div class="shop-content">
+        <!-- box-1 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBsnHpLcy2Z9ClH9KAQyPwIoZeB6QjNbNV6hTVCZ7kiHXdL6BwCgyr-aTqMw26AkthSemZ6OCBTrdPkp8Upt6OR2oz_knBqtawKQvDxsXa0tkfSXpP4MLXz7LYpmiZ73ADdPk8-ebZ7xlX_Qjak7E7O4c2WHQiTqwh48Fj4w4wQrNpPEC1jaGux7qRapE/s261/product9.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Polo Ralph Lauren</h2>
+          <span class="price">$50</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- box-2 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj--xYVySbGGSVw6nK9ouafWO4x6JLDHsRi_V8gKuw8zwXrZbALEJvVweLXe42z045aGui-B6UOFLukZGcxZ2cfO4BXvN9U7rF1fa0QMubXiMlx4v5vCyVS1kBUeD1ZDgZgo-kd-kThuW4bEAuS20wKlGPlPOhn3u9U2pDnL-iptOKF-d7pIaUQqGPQ3jY/s1600/product8.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Nike Dri-FIT</h2>
+          <span class="price">$60</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- box-3 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiztAVhESMdvjJnWVnG4dDa4siy9XZkvjfm5gDJz_Bf_iJZ43XxkrV74gv9N1LOrEswiuWb7Ju8dRGqGMD-vhzwBnpCW3ajYo31h99rcvHR-NERZJH5qUZQF1vU4-ubPQe4ABjQkKxnnQJsvbhNiFodkRzpgblnIQ5RCNqg5fgE6WcWEbPox9ICx9SeHzo/s1600/product7.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Adidas Originals</h2>
+          <span class="price">$70</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- box-4 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGWlBIRxU3mou2GalC8jk_jy1ZE3ptjtrck1hlencAHt3CLMReGE-MQhtk2mi6NAp8SFf4QTsJivtNV1OejizSBr0U-dEnMO00B7B1KTcUnFgrFHzVL824yCAvI7VpIFL7wQLRvKarjNBBAD4Bf36FWrhKSwevPT5j9w98Oj0s7ztxo_LCqAdyJVwPFq0/s1600/product6.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Gucci Logo T-shirt</h2>
+          <span class="price">$80.20</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- box-5 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/a/AVvXsEjLaMk-WEppgc3hBzNlOiXZ96lf5DQVnr4rHrOibssRAiGeIsCbZyaLv7DBaEVLl7qcSmcVSXfOZMkWq9tCTrv04md_QxyZsmICDFR1uqwZkWcVbhVFJ2MShYLrlLxBH-T40aOC8ki-qvxoCVwjjkjOb8WzmhsU6Ie8qDG3aZFXI-yU3Kia3g_050MNuA8"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Calvin Klein CK Logo</h2>
+          <span class="price">$50</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- box-6 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUkrGCoAF5rCuJ1BqTrRG2XbKoA8ogUep7fALXH05Qv70DksJCs0ZSKoS3ynJr8wvmpYXL6XJ8WsBkreCf2HsVOntgGR4ibOS4OzyLRZExkmzlyeRahcPCbpvkWHR05CmqWH2_x8R5C0yyFQH561GFoBiXRrawJ3RPxTiEzmdvW5j1raNKtCQxUf2-U98/s1600/product3.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Tommy Hilfiger Flag Shirt</h2>
+          <span class="price">$30</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- box-7 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqHvab-yD6tTSqqWKNj9fLxMYI7n8UtTW_LwsDGwR3gA5OVvgdFHksjNjh1vKIKjuzAKmVzXvvFUHDu4Oy-qt-cMQ46X13Yyt3fMVXZoidlDWzjWM9cv4lN6EmkWzJX7ulJ94hsGzi3Bp0HneakpZx7EycXFj7ZBv4h0liBN3v3qlns2f1xWVLLODZCSw/s1600/product4.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Lacoste Crocodile Logo</h2>
+          <span class="price">$58.35</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- box-8 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3ZM97Mp6vmbtVaufhc9W3EnrsYMjDqjwr_9VJ2i4adYuLpthNUpj2JwxXiDu4rLpApfanTbMEDoLCTdosHJfIfPFi3sTh9DZjqS_eiXc1qMxmlTcNkCRUtsa2pkksO-HGu0I3doId9UlW40nP-MFByy5g3QCyOqxGc8MXBnv-gvFlNAuY1-Tc9yJ1z1s/s1600/product2.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Supreme Box Logo</h2>
+          <span class="price">$80.25</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
